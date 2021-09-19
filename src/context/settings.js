@@ -7,7 +7,6 @@ export default function Settings(props) {
         sortCat: 'hardest',
         showCompleted: true,
     }
-
    return (
         <SettingsContext.Provider value={state}>
             {props.children}
