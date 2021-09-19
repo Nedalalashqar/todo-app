@@ -6,7 +6,6 @@ import { FormGroup, InputGroup } from '@blueprintjs/core';
 import { v4 as uuid } from 'uuid';
 import '../../app.css';
 
-
 const ToDo = () => {
   const [list, setList] = useState([]);
   const [incomplete, setIncomplete] = useState([]);
@@ -18,7 +17,6 @@ const ToDo = () => {
     item.complete = false;
     setList([...list, item]);
   }
-
   function deleteItem(id) {
     const items = list.filter((item) => item.id !== id);
     setList(items);
@@ -35,17 +33,13 @@ const ToDo = () => {
       setList(list2);
     }
   };
-
   useEffect(() => {
     let incompleteCount = list.filter((item) => !item.complete);
     setIncomplete(incompleteCount);
     document.title = `To Do List: ${incomplete.length}`;
   }, [list]);
-
   return (
     <>
-
-
       <div className='form-container'>
         <Card style={{ width: '50rem' }}>
           <Card.Body>
@@ -79,9 +73,6 @@ const ToDo = () => {
           </Card.Body>
         </Card>
       </div >
-
-
-
       <Pagination className='pagList-container' list={list} incomplete={incomplete} toggleComplete={toggleComplete}></Pagination>
     </>
   );

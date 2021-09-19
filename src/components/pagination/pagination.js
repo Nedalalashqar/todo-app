@@ -45,8 +45,6 @@ export default function Pagination(props) {
       setActivePage(activePage - 1);
     }
   }, [activeList]);
-
-
   function handlePages(pageNumber) {
 
     if (pageNumber == 'Prev' && buttonsArray.includes(activePage - 1)) {
@@ -61,9 +59,7 @@ export default function Pagination(props) {
     <>
       <br />
       <List activeList={activeList}  list={props.list} color={props.color} toDoStatus={props.toDoStatus} toggleComplete={props.toggleComplete} />
-
       <br />
-
       {buttonsArray &&
         buttonsArray.map((item) => (
           <>
