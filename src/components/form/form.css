@@ -1,0 +1,13 @@
+.form-container{
+    background-color: rgb(143, 17, 38);
+    padding: 1rem;
+    margin-top: 6rem;
+    border-radius: 22px;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.315);
+}
+input[type=range]:hover{
+    cursor: pointer;
+}
+input[type=range]:focus{
+    cursor: grab;
+}

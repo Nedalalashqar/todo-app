@@ -1,0 +1,11 @@
+.card{
+    padding: 1rem;
+    margin-top: 6rem;
+    box-shadow: 0 0 13px rgba(28, 199, 230, 0.87);
+   border-radius: 11px;
+    background-color: rgb(61, 68, 78);
+}
+.delete-btn, .coplemte-btn{
+   margin-left:300px;
+   margin-bottom: 5px;
+}

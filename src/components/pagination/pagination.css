@@ -1,0 +1,21 @@
+.pagination-contianer{
+    background-color: rgb(152, 153, 158);
+    border-radius: 22px;
+    margin-top: 1rem;
+    padding: .2rem;
+    display: table;
+}
+
+.pagination-list{
+    list-style: none;
+    display: inline-flex;
+    height: .4rem;
+}
+
+.pagination-item{
+    margin-top: .0rem;
+    border-radius: 20px;
+    margin-left: .5rem;
+    background-color: rgb(124, 77, 77);
+    outline: none;
+}
