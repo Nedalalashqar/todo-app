@@ -1,4 +1,4 @@
-@import '~normalize.css';
+/* @import '~normalize.css';
 @import '~@blueprintjs/core/lib/css/blueprint.css';
 @import '~@blueprintjs/icons/lib/css/blueprint-icons.css';
 .card {
@@ -46,4 +46,10 @@ margin-top: 13px;
 }
 .toDoForm{
  border: rgb(107, 68, 68) 20px;
+} */
+
+
+   
+body{
+  background-image: linear-gradient(120deg, #0035a7 0%, #005079 100%);
 }

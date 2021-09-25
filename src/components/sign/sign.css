@@ -1,0 +1,30 @@
+.signForm{
+    width: 600px;
+    margin-left: 25%;
+    margin-top: 5%;
+    height: 400px;
+    border-radius: 15px;
+    background-color: rgb(158, 10, 35);
+    box-shadow: 3px 3px 3px 3px rgba(245, 235, 235, 0.589);
+  }
+
+
+  .signUp{
+    width: 300px;
+    margin-left: 20%;
+    margin-top: 15%;
+  }
+
+
+  h1{
+    margin-top: 15%;
+    color: rgb(248, 237, 237);
+  }
+
+  
+  .signIn{
+    width: 300px;
+    margin-left: 20%;
+    margin-top: 15%;
+  }
+  
